@@ -1,144 +1,166 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="pl">
+
 <head>
   <meta charset="UTF-16">
-  <title>Łukasz Wiśniewski - CV</title>
+  <title>Łukasz Wiśniewski - Backend .NET Developer</title>
   <meta http-equiv="Content-Language" content="pl">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-	<style>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: 0px;
+    }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 0px;
-}
-	
-#headerDiv {
-    background-color: #303846;
-    color:white;
+    #headerDiv {
+      background-color: #303846;
+      color: white;
 
-    padding: 25px;
-}
+      padding: 25px;
+    }
 
-.title {
-    color:#979ba2
-}
+    .title {
+      color: #979ba2
+    }
 
+    .tasks {
+      font-size: 14px;
+      padding-top: 5px;
+    }
 
-.section {
-    padding: 40px 40px 0px 40px;
-}
+    .section {
+      padding: 40px 40px 0px 40px;
+    }
 
-.sub-section {
-    padding-top:40px;
-}
+    .sub-section {
+      padding-top: 10px;
+    }
 
-.sub-section-small {
-    padding-top:10px;
-}
+    .bottom-line {
+      border-bottom: 2px #e2e2e2 solid;
+      padding-bottom: 40px;
+      margin-right: 40px;
+    }
 
-.bottom-line {
-    border-bottom: 2px #e2e2e2 solid;
-    padding-bottom: 40px;
-    margin-right:40px;
-}
+    .progress-bar {
+      background-color: #303846;
+    }
 
-.progress-bar {
-    background-color: #303846;
-}
+    .section-header {
+      padding-bottom: 5px;
+    }
 
-@media (max-width:991px) {
-    #aboutDiv {
+    .no-decoration {
+      text-decoration: none;
+      color: #979ba2;
+    }
+
+    @media (max-width:991px) {
+      #aboutDiv {
         padding-top: 20px;
         text-align: center;
+      }
     }
-}
-	</style>
+  </style>
 
   <div class="container">
     <div class="row" id="headerDiv">
       <div class="col-lg-3 text-center">
-        <img src="avatar2_cropped.png" width="200px" height="200px" />
+        <img src="avatar_cropped_circle_979ba2.png" width="200px" height="200px" />
       </div>
-      <div class="col-lg-9" id="aboutDiv">
+      <div class="col-lg-6" id="aboutDiv">
         <h1>Łukasz Wiśniewski</h1>
-        <h3 class="title">.NET Developer</h3>
-        <div id="contactDiv" class="title">
-          <i class="bi bi-envelope-fill"></i> lukwis95@gmail.com <br>
-          <i class="bi bi-telephone-fill"></i> +48 660 999 793 <br>
-          <i class="bi bi-geo-alt-fill"></i> Ogrodniczki 43 m 4, Białystok <br>
+        <h3 class="title">Backend .NET Developer</h3>
+        <div class="row title">
+          <div class="col-lg-12"><a class="no-decoration" href="mailto:lukwis95@gmail.com"><i
+                class="bi bi-envelope-fill"></i> lukwis95@gmail.com</a></div>
         </div>
+        <div class="row title">
+          <div class="col-lg-12"><a class="no-decoration" href="tel:+48660999793"><i class="bi bi-telephone-fill"></i>
+              +48 660 999 793</a></div>
+        </div>
+        <div class="row title">
+          <div class="col-lg-12"><a class="no-decoration" href="https://www.linkedin.com/in/lukasz-wisniewski-dev"><i
+                class="bi bi-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+        <div class="row title">
+          <div class="col-lg-12"><a class="no-decoration" href="https://github.com/Rawenvoys"><i
+                class="bi bi-github"></i> GitHub</a></div>
+        </div>
+      </div>
+      <div class="col-lg-6"></div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="row section">
+          <div class="col-lg-12">
+            <div class="row" style="padding: 0 10px;">
+              Backend .NET Developer z 8-letnim doświadczeniem w projektowaniu i implementacji nowoczesnych aplikacji
+              webowych. Specjalizuję się w architekturze opartej na DDD, CQRS i Clean Architecture. Pracuję z .NET Core,
+              MSSQL oraz MongoDB. Stawiam na jakość, automatyzację i współpracę z zespołem — zarówno przy rozwoju
+              produktów,
+              jak i w optymalizacji istniejących rozwiązań.
+            </div>
+          </div>
+        </div>
+        <div class="row bottom-line"></div>
       </div>
     </div>
     <div class="row" id="mainDiv">
       <div class="col-lg-8">
         <div class="row section">
           <div class="col-lg-12">
-            <h3>Wykształcenie</h3>
+            <h3 class="section-header"><i class="bi bi-briefcase"></i> Doświadczenie zawodowe</h3>
             <div class="row">
-              <div class="col-lg-6">
-                Politechnika Białostocka
+              <div class="col-lg-8">
+                <b>Santander Consumer Bank SA</b>, Wrocław - zdalnie
               </div>
-              <div class="col-lg-6">
-                <p class="float-right">
-                  paź 2014 - lut 2018
-                </p>
-              </div>
-            </div>
-            <div class="row title">
-              <div class="col-lg-12">
-                Białystok
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                Informatyka - studia I stopnia<br>
-                Członek Samorządu Studenckiego w latach 2017 - 2018
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row bottom-line" style="padding-right:20px;"></div>
-        <div class="row section">
-          <div class="col-lg-12">
-            <h3>Doświadczenie zawodowe</h3>
-			
-			<div class="row">
-              <div class="col-lg-6">
-                .NET Developer
-              </div>
-              <div class="col-lg-6">
+              <div class="col-lg-4">
                 <label class="float-right">
-                  maj 2022 - obecnie
+                  maj 2022 - lip 2025
                 </label>
               </div>
             </div>
             <div class="row title">
               <div class="col-lg-12">
-                Santander Consumer Bank SA, Wrocław - zdalnie
+                .NET Developer
               </div>
             </div>
             <div class="row">
               <div class="col-lg-12">
-                Rozwijanie oraz utrzymywanie serwisu REST API odpowiedzialnego za przygotowanie dokumentów PDF.
+                <ul class="tasks">
+                  <li>Rozwijanie oraz utrzymywanie serwisu REST API odpowiedzialnego za przygotowanie dokumentów PDF
+                  </li>
+                  <li>Rozbudowa aplikacji webowej „Reklamacje” (ASP.NET Web Pages, VB.NET) – dopisywanie nowych
+                    funkcjonalności oraz optymalizacja istniejącego kodu w aplikacji obsługującej procesy reklamacyjne
+                  </li>
+                  <li>Udział w analizie wymagań, implementacji zmian oraz integracji z innymi systemami bankowymi</li>
+                  <li>Refaktoryzacja wybranych fragmentów logiki biznesowej w celu poprawy czytelności i utrzymania
+                    spójności aplikacji</li>
+                </ul>
               </div>
             </div>
-			
-			
+
+
             <div class="row sub-section">
-              <div class="col-lg-6">
-                .NET Developer
+              <div class="col-lg-8">
+                <b>LBPro</b>, Białystok - hybrydowo
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-4">
                 <label class="float-right">
                   mar 2018 - maj 2022
                 </label>
@@ -146,22 +168,24 @@ body {
             </div>
             <div class="row title">
               <div class="col-lg-12">
-                LBPro, Białystok - hybrydowo
+                .NET Developer
               </div>
             </div>
             <div class="row">
               <div class="col-lg-12">
-                Tworzenie nowych funkcjonalności oprogramowania webowego w technologii WebForms oraz .NET MVC z
-                wykorzystaniem jQuery. Tworzenie integracji z zewnętrznymi systemami.
-                Analiza i naprawa istniejących błędów. Pierwsza linia supportu.
+                <ul class="tasks">
+                  <li>Tworzenie nowych funkcjonalności w aplikacjach WebForms i .NET MVC z użyciem jQuery</li>
+                  <li>Integracje z systemami zewnętrznymi (REST/SOAP)</li>
+                  <li>Obsługa błędów i analiza problemów technicznych (1. linia supportu)</li>
+                </ul>
               </div>
             </div>
-  
+
             <div class="row sub-section">
-              <div class="col-lg-6">
-                .NET Developer
+              <div class="col-lg-8">
+                <b>BiaTech</b>, Białystok
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-4">
                 <label class="float-right">
                   lip 2017 - paź 2017
                 </label>
@@ -169,21 +193,23 @@ body {
             </div>
             <div class="row title">
               <div class="col-lg-12">
-                BiaTech, Białystok
+                .NET Developer
               </div>
             </div>
             <div class="row">
               <div class="col-lg-12">
-                Wytwarzanie oprogramowania w .NET MVC z wykorzystaniem jQuery oraz Entity Framework
+                <ul class="tasks">
+                  <li>Rozwój aplikacji webowej w ASP.NET MVC z wykorzystaniem Entity Framework i jQuery</li>
+                </ul>
               </div>
             </div>
-  
-  
+
+
             <div class="row sub-section">
-              <div class="col-lg-6">
-                Praktyki Zawodowe
+              <div class="col-lg-8">
+                <b>MavSystem</b>, Białystok
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-4">
                 <label class="float-right">
                   lip 2016 - sie 2016
                 </label>
@@ -191,239 +217,146 @@ body {
             </div>
             <div class="row title">
               <div class="col-lg-12">
-                MavSystem, Białystok
+                Praktyki Zawodowe
               </div>
             </div>
             <div class="row">
               <div class="col-lg-12">
-                Utworzenie projektu webowego w MVC z wykorzystaniem bazy danych SharePoint
+                <ul class="tasks">
+                  <li>Tworzenie projektu webowego w ASP.NET MVC z integracją z bazą SharePoint</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-  
+
         <div class="row bottom-line" style="padding-right:20px;"></div>
-  
+
         <div class="row section">
           <div class="col-lg-12">
-            <h3>Umiejętności</h3>
+            <h3 class="section-header"><i class="bi bi-folder2-open"></i> Projekty</h3>
+
             <div class="row">
-              <div class="col-lg-4">
-                GIT
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
+              <div class="col-lg-8">
+                <b>Officely</b>
               </div>
               <div class="col-lg-4">
-                C#
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                T-SQL
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
+                <label class="float-right">
+                  gru 2024 - obecnie
+                </label>
               </div>
             </div>
-  
-            <div class="row">
-              <div class="col-lg-4">
-                Dapper
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                NUnit
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                MVC
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
+            <div class="row title">
+              <div class="col-lg-12">
+                Technologie: .NET, MongoDB, CQRS, DDD, Refit, Blazor, CI/CD (GitHub Actions)
               </div>
             </div>
-  
             <div class="row">
-              <div class="col-lg-4">
-                Blazor
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                HTML
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                CSS
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
+              <div class="col-lg-12">
+                <ul class="tasks">
+                  <li>Własny projekt systemu do zarządzania firmą w chmurze. Umożliwia konfigurację szablonów maili,
+                    PDF-ów,
+                    przechowywanie plików w modelu multi-tenantowym oraz kontrolę dostępu.</li>
+                </ul>
               </div>
             </div>
-  
+          </div>
+        </div>
+
+        <div class="row bottom-line" style="padding-right:20px;"></div>
+
+        <div class="row section">
+          <div class="col-lg-12">
+            <h3 class="section-header"><i class="bi bi-mortarboard"></i> Wykształcenie</h3>
             <div class="row">
-              <div class="col-lg-4">
-                JavaScript
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
+              <div class="col-lg-8">
+                Politechnika Białostocka
               </div>
               <div class="col-lg-4">
-                Entity Framework
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
+                <label class="float-right">
+                  paź 2014 - lut 2018
+                </label>
               </div>
-              <div class="col-lg-4">
-                jQuery
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
+            </div>
+            <div class="row title">
+              <div class="col-lg-12">
+                Informatyka - studia I stopnia
               </div>
-            </div> 
-  
-  
-            <div style="padding-top:80px;"></div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <ul class="tasks">
+                  <li>Członek Samorządu Studenckiego w latach 2017 - 2018</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="col-lg-4" style="border-left: 2px #e2e2e2 solid;">
+
         <div class="row section">
           <div class="col-lg-12">
-            <h3>Dane osobowe</h3>
-            <div class="row title">
-              <div class="col-lg-12">Data urodzenia</div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">17 marca 1995</div>
-            </div>
-  
-            <div class="row title sub-section-small">
-              <div class="col-lg-12"><i class="bi bi-linkedin"></i> Linkedin</div>
-            </div>
+            <h3 class="section-header"><i class="bi bi-tools"></i> Technologie i narzędzia</h3>
+            <ul class="tasks">
+              <li><strong>Języki i platformy:</strong> C#, .NET Framework & .NET Core, ASP.NET Web API</li>
+              <li><strong>Bazy danych:</strong> MSSQL (T-SQL, optymalizacja zapytań), MongoDB</li>
+              <li><strong>ORM i dostęp do danych: </strong>Dapper, MongoDB.Driver</li>
+              <li><strong>Architektura i wzorce:</strong> Domain-Driven Design (DDD), CQRS, Clean Architecture,
+                mikroserwisy</li>
+              <li><strong>Komunikacja:</strong> REST, Refit</li>
+              <li><strong>DevOps :</strong> GitHub Actions, Azure DevOps</li>
+              <li><strong>Testowanie:</strong> xUnit, Moq, testy jednostkowe</li>
+              <li><strong>Frontend:</strong> Razor, jQUery, podstawy Blazor</li>
+              <li><strong>Zarządzanie projektami i współpraca: </strong>Jira, Confluence, GitHub Projects</li>
+              <li><strong>Inne narzędzia:</strong> Jules, GitHub Copilot, Git, GitFlow, MediatR, AutoMapper</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row bottom-line" style="margin-left:20px"></div>
+
+        <div class="row section">
+          <div class="col-lg-12">
+            <h3 class="section-header"><i class="bi bi-translate"></i> Języki obce</h3>
             <div class="row">
               <div class="col-lg-12">
-                
-                <a href="https://www.linkedin.com/in/�ukasz-wi�niewski-b6046615b">www.linkedin.com/in/łukasz-wiśniewski-b6046615b</a></div>
-            </div>
-  
-            <div class="row title sub-section-small">
-              <div class="col-lg-12"><i class="bi bi-git"></i> Gitlab</div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12"><a href="https://gitlab.com/Lucato">https://gitlab.com/Lucato</a></div>
+                <ul class="tasks">
+                  <li>Angielski (B1)</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
+
         <div class="row bottom-line" style="margin-left:20px"></div>
         <div class="row section">
           <div class="col-lg-12">
-            <h3>Języki obce</h3>
-            <!--<img src="language.png"/>-->
+            <h3 class="section-header"><i class="bi bi-puzzle"></i> Hobby i zainteresowania</h3>
+
             <div class="row">
               <div class="col-lg-12">
-                Angielski
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100">B1</div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="row sub-section-small">
-              <div class="col-lg-12">
-                Hiszpański
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100">A0</div>
-                </div>
+                <ul class="tasks">
+                  <li>Szachy</li>
+                  <li>Podróże</li>
+                  <li>Karty i Gry Pokemon</li>
+                  <li>Ogrodnictwo</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-  
-        <div class="row bottom-line" style="margin-left:20px"></div>
-        <div class="row section">
-          <div class="col-lg-12">
-            <h3>Hobby i zainteresowania</h3>
-            <div class="row">
-              <div class="col-lg-12">
-                <i class="bi bi-square-fill"></i> Szachy
-              </div>
-            </div>
-  
-            <div class="row sub-section-small">
-              <div class="col-lg-12">
-                <i class="bi bi-square-fill"></i> Produkcja muzyczna
-              </div>
-            </div>
-  
-            <div class="row sub-section-small">
-              <div class="col-lg-12">
-                <i class="bi bi-square-fill"></i> Ogrodnictwo
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <div class="row bottom-line" style="margin-left:20px"></div>
-        <div class="row section">
-          <div class="col-lg-12">
-            <h3>Narzędzia</h3>
-            <div class="row">
-              <div class="col-lg-12">
-                <label>IDE: <span class="title">Visual Studio</span></label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <label>Git: <span class="title">Source Tree & Visual Studio Git Extension</span></label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <label>SQL: <span class="title">Microsoft SQL Management Studio</span></label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <label>Agile: <span class="title">JIRA / Confluence</span></label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <label>Azure: <span class="title">Microsoft Azure Storage Explorer</span></label>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
-  
+    <div class="row bottom-line"></div>
+
     <div class="row" id="footerDiv">
-      <div class="col-lg-12" style="padding-top:20px;font-size:14px;">
-        <i class="title">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).</i>
+      <div class="col-lg-12" style="padding:20px 0px;font-size:14px;">
+        <i class="title">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji
+          procesu rekrutacji zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia
+          2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego
+          przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).</i>
       </div>
     </div>
   </div>
