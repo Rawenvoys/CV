@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lucato\\Source\\Repos\\Rawenvoys\\CV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{479AD1BF-CDC2-ABBF-A748-1B7EBFDDB2B7}|CV.Web\\CV.Web.csproj|c:\\users\\lucato\\source\\repos\\rawenvoys\\cv\\cv.web\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479AD1BF-CDC2-ABBF-A748-1B7EBFDDB2B7}|CV.Web\\CV.Web.csproj|solutionrelative:cv.web\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479AD1BF-CDC2-ABBF-A748-1B7EBFDDB2B7}|CV.Web\\CV.Web.csproj|c:\\users\\lucato\\source\\repos\\rawenvoys\\cv\\cv.web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479AD1BF-CDC2-ABBF-A748-1B7EBFDDB2B7}|CV.Web\\CV.Web.csproj|solutionrelative:cv.web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Lucato\\Source\\Repos\\Rawenvoys\\CV\\CV.Web\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "CV.Web\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Lucato\\Source\\Repos\\Rawenvoys\\CV\\CV.Web\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "CV.Web\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:24:12.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lucato\\Source\\Repos\\Rawenvoys\\CV\\CV.Web\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CV.Web\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Lucato\\Source\\Repos\\Rawenvoys\\CV\\CV.Web\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CV.Web\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:23:52.711Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
